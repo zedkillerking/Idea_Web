@@ -1,0 +1,175 @@
+.screen {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 200px auto;
+    background: linear-gradient(black,purple);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.leftSection {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.postButton {
+    border-radius: 20px;
+    background-color: darkcyan;
+    color: azure;
+    font-size: 18px;
+    height: 40px;
+    width: 150px;
+    border-width: 3px;
+    align-self: center;
+}
+.rightSection {
+    display: flex;
+    flex: right;
+    flex-direction: column;
+    margin-left: 20px;
+    overflow-y: scroll;
+}
+.paddingBottom {
+    padding-bottom: 20px;
+}
+.userAvatar {
+    width: 200px;
+    height: 200px;
+    justify-self: baseline;
+}
+.topRightSection {
+    background-color: white;
+}
+.navigationTop {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navigationContent {
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.searchInput {
+    min-height:30px;
+    width: 100%;
+    font-size: 16px;
+}
+.takeRemainingSpace {
+    flex: 1;
+}
+.iconSize {
+    min-width: 30px;
+    min-height: 30px;
+}
+.paddingRight {
+    padding-right: 10px;
+}
+.signOutButton {
+    background-color: white;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.bottomRightSection {
+    background-color: white;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.ideasContainer {
+    flex: 2;
+}
+.categoryContainer {
+    flex: 1;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    margin:20px;
+    padding-left: 10px;
+}
+.idea {
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 2px;
+    margin: 20px;
+}
+.postDate {
+    color: gray;
+}
+.posterAvatar {
+    width: 100px;
+    height: 100px;
+    justify-self: baseline;
+}
+.paddingSurounding {
+    padding:10px;
+}
+.ideaHeadline {
+    display: flex;
+    flex-direction: row;
+}
+.ideaTitle {
+    font-size: 24px;
+}
+.borderlessButton {
+    border: none;
+    background-color: white;
+}
+.ideaListNavigation {
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+}
+.bigLabel{
+    font-size: 24px;
+}
+.dropdown {
+    flex-direction: column;
+}
+.myModal {
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+}
+.formLine {
+    flex-direction: row;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 120px auto ;
+    margin-bottom: 30px;
+  }
+.ideaButton {
+    color:#39ac73;
+}
+
+.modalHeader {
+    background-color: #00b3b3;
+}
+.modalTitle {
+    color: white;
+}
+.myCustomTextArea {
+    border-radius: 10px;
+}
+.myCustomInput {
+    border-radius: 10px;
+}
+.myCustomlabel {
+    margin-right: 5px;
+}
+.myCustomFooterButton{
+    float: right;
+    margin: 10px;
+}
+.comment {
+    display: flex;
+    flex-direction: column;
+}

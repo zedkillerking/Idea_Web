@@ -1,0 +1,24 @@
+.navigationContent {
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.iconSize {
+    min-width: 30px;
+    min-height: 30px;
+}
+.takeRemainingSpace {
+    flex: 1;
+}
+.searchInput {
+    min-height:30px;
+    width: 100%;
+    font-size: 16px;
+}
+.signOutButton {
+    background-color: white;
+    border-radius: 10px;
+    font-size: 16px;
+}

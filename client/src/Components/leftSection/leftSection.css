@@ -1,0 +1,40 @@
+.leftSection {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.userAvatar {
+    width: 200px;
+    height: 200px;
+    justify-self: baseline;
+}
+.postButton {
+    border-radius: 20px;
+    background-color: #009999;
+    color: azure;
+    font-size: 18px;
+    height: 40px;
+    width: 150px;
+    border-width: 2px;
+    border-color: black;
+    align-self: center;
+}
+.modalHeader {
+    background-color: #00b3b3;
+}
+.modalTitle {
+    color: white;
+}
+.myCustomTextArea {
+    border-radius: 10px;
+}
+.myCustomInput {
+    border-radius: 10px;
+}
+.myCustomlabel {
+    margin-right: 5px;
+}
+.myCustomFooterButton{
+    float: right;
+    margin: 10px;
+}

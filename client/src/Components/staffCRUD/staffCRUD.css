@@ -1,0 +1,186 @@
+.screen {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 200px auto;
+    background: linear-gradient(black,purple);
+}
+
+
+.rightSection {
+    display: flex;
+    flex: right;
+    flex-direction: column;
+    margin-left: 20px;
+
+}
+.paddingBottom {
+    padding-bottom: 20px;
+}
+.topRightSection {
+    background-color: white;
+}
+.navigationTop {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navigationContent {
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.searchInput {
+    min-height:30px;
+    width: 100%;
+    font-size: 16px;
+}
+.takeRemainingSpace {
+    flex: 1;
+}
+.iconSize {
+    min-width: 30px;
+    min-height: 30px;
+}
+.paddingRight {
+    padding-right: 10px;
+}
+.signOutButton {
+    background-color: white;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.bottomRightSection {
+    background-color: white;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.tableContainer {
+    flex: 2;
+    padding:10px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.departmentContainer {
+    flex: 1;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    margin:20px;
+    padding-left: 10px;
+}
+.idea {
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 2px;
+    margin: 20px;
+}
+.postDate {
+    color: gray;
+}
+.posterAvatar {
+    width: 100px;
+    height: 100px;
+    justify-self: baseline;
+}
+.paddingSurounding {
+    padding:10px;
+}
+.ideaHeadline {
+    display: flex;
+    flex-direction: row;
+}
+.ideaTitle {
+    font-size: 24px;
+}
+.borderlessButton {
+    border: none;
+    background-color: white;
+    color:darkcyan;
+}
+.ideaListNavigation {
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+}
+.bigLabel{
+    font-size: 24px;
+}
+.myModal {
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+}
+.formLine {
+    display: flex;
+    flex-direction: row;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 120px auto ;
+    margin-bottom: 30px;
+}
+.deleteButton {
+    color: red;
+    filter: drop-shadow(1px 1px gray);
+}
+.editButton {
+    color:black;
+    border: 0px solid white;
+    border-radius: 5px;
+    background-color: yellow;
+    filter: drop-shadow(1px 1px gray);
+    padding: 5px;
+}
+.detailButton {
+    color:black;
+    border: 0px solid white;
+    border-radius: 5px;
+    background-color: #0066cc;
+    filter: drop-shadow(1px 1px gray);
+    padding: 5px;
+}
+.tableButtonContainer {
+    width: 50px;
+}
+.addIcon {
+    color:#0000ff;
+}
+.addButtonContainer {
+    background-color: #00b3b3;
+    max-width: fit-content;
+    border-radius: 10px;
+    padding: 5px;
+}
+.flexDirectionRow {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.modalHeader {
+    background-color: #00b3b3;
+}
+.modalTitle {
+    color: white;
+}
+.myCustomTextArea {
+    border-radius: 10px;
+}
+.myCustomInput {
+    border-radius: 10px;
+}
+.myCustomlabel {
+    margin-right: 5px;
+}
+.myCustomFooterButton{
+    float: right;
+    margin: 10px;
+}
